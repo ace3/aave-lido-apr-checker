@@ -10,7 +10,13 @@
     "axios": "^1.6.2",
     "bignumber.js": "^9.1.2",
     "ethers": "5",
+    "fastify": "^4.25.1",
     "reflect-metadata": "^0.2.1",
     "tslib": "^2.6.2"
+  },
+  "scripts": {
+    "build-cjs": "npx esbuild index.js  --bundle --outfile=build.cjs --format=cjs --platform=node",
+    "package": "npx pkg build.cjs",
+    "bundle": " yarn run build-cjs && yarn run package"
   }
 }
