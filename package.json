@@ -1,0 +1,16 @@
+{
+  "name": "fetcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@aave/contract-helpers": "^1.21.1",
+    "@aave/math-utils": "^1.21.1",
+    "@bgd-labs/aave-address-book": "^2.13.0",
+    "axios": "^1.6.2",
+    "bignumber.js": "^9.1.2",
+    "ethers": "5",
+    "reflect-metadata": "^0.2.1",
+    "tslib": "^2.6.2"
+  }
+}
